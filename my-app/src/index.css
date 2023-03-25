@@ -1,0 +1,36 @@
+.parent-div{
+  background-color: rgb(15, 11, 11);
+  height: 100vh;
+
+}
+.main-div{
+  width: 1000px;
+  margin:auto;
+}
+.main-div>textarea,button,p{
+  display: block;
+
+}
+.textarea{
+  background-color: #52545f;
+  color:#D1D5DB;
+  font-weight: bold;
+  width: 90%;
+  height: 200px;
+  font-size: 30px;
+  border:2px solid black;
+}
+.btn{
+  background-color: #14a582;
+  color: white;
+  font-size: 25px;
+  width: 90%;
+  padding: 15px;
+  border-radius: 2px solid #14a582;
+  margin-top: 20px;
+
+}
+.result{
+  color: white;
+  line-height: 1.3rem;
+}
